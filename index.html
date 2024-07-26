@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>amazon.com clone</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="icon" type="image/jpg" href="assets/favicon.svg">
+</head>
+
+<body>
+    <header>
+        <div class="navbar">
+            <div class="navlogo border">
+                <div class="logo"></div>
+            </div>
+            <div class="address border">
+                <p class="add1">Deliver to</p>
+                <div class="addicon">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <p class="add2">India</p>
+                </div>
+            </div>
+            <div class="navsearch">
+                <select class="searchselect">
+                    <option >All</option>
+                </select>
+                <input type="text" class="searchinput" placeholder="Search Amazon">
+                <div class="searchicon">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
+            </div>
+            <div class="navsignin border">
+                <p><span>Hello, sign in</span></p>
+                <p class="navsec">Account & List</p>
+            </div>
+            <div class="navorder border">
+                <p><span>Returns</span></p>
+                <p class="navsec">& Orders</p>
+            </div>
+            <div class="navcart border">
+                <i class="fa-solid fa-cart-shopping"></i>
+                cart
+            </div>
+        </div>
+        <div class="panel">
+            <div class="panelall">
+                <i class="fa-solid fa-bars"></i>
+                All
+            </div>
+            <div class="panelrem">
+                <p class="border"><a href="https://www.amazon.com/gp/goldbox?ref_=nav_cs_gb&discounts-widget=%2522%257B%255C%2522state%255C%2522%253A%257B%255C%2522refinementFilters%255C%2522%253A%257B%257D%257D%252C%255C%2522version%255C%2522%253A1%257D%2522">Today's Deal</a></p>
+                <p class="border"><a href="https://www.amazon.com/gp/help/customer/display.html?nodeId=508510&ref_=nav_cs_customerservice">Customer Service</a></p>
+                <p class="border"><a href="https://www.amazon.com/registries?ref_=nav_cs_registry&ref_=nav_cs_registry">Registry</a><p>
+                <p class="border"><a href="https://www.amazon.com/gift-cards/b/?ie=UTF8&node=2238192011&ref_=nav_cs_gc">Gift Cards</a></p>
+                <p class="border"><a href="https://www.amazon.com/b/?_encoding=UTF8&ld=AZUSSOA-sell&node=12766669011&ref_=nav_cs_sell">Sell</a></p>
+            </div>
+            <div class="paneldeals border">
+                Shop deals in Electronics
+            </div>
+        </div>
+    </header>
+    <div class="herosection">
+        <div id="slider">
+        </div>
+        <div class="heromsg">
+            <p>You are on amazon.com. You can also shop on Amazon India for millions of products with fast local delivery. <a href="https://www.amazon.in/"> Click here to go to amazon.in</a></p>
+        </div>
+    </div>
+    <div class="shopsection">
+        <div class="box1 box">
+            <div class="boxcont">
+                <h2>Clothes</h2>
+                <div class="boximg" style="background-image: url(assets/box1_image.jpg);"></div>
+                <p><a onclick="pop()" href="https://www.amazon.com/s?k=clothes+for+men+and+women&crid=1FSO0RIJ0TP3X&sprefix=clothes+for+men+and+women+%2Caps%2C419&ref=nb_sb_noss_2" style="text-decoration: none;">Shop now</a> </p>
+            </div>
+        </div>
+        <div class="box2 box"><div class="boxcont">
+            <h2>Health&Personal care</h2>
+            <div class="boximg" style="background-image: url(assets/box2_image.jpg);"></div>
+            <p><a onclick="pop()" href="https://www.amazon.com/s?k=health+and+personel+care+products&crid=HGE2EA5NWGA5&sprefix=health+and+personal+care+produc%2Caps%2C444&ref=nb_sb_noss_2" style="text-decoration: none;">Shop now</a></p>
+        </div></div>
+        <div class="box3 box">
+            <div class="boxcont">
+            <h2>Furniture</h2>
+            <div class="boximg" style="background-image: url(assets/box3_image.jpg);"></div>
+            <p><a onclick="pop()" href="https://www.amazon.com/s?k=furnitures&crid=1ALNF00JNBUFU&sprefix=furnitures%2Caps%2C791&ref=nb_sb_noss_1" style="text-decoration: none;">Shop now</a></p>
+    </div>
+</div>
+        <div class="box4 box"><div class="boxcont">
+            <h2>Mobiles</h2>
+            <div class="boximg" style="background-image: url(assets/box4_image.jpg);"></div>
+            <p><a onclick="pop()" href="https://www.amazon.com/s?k=mobiles&crid=JPMU80TZ1CX5&sprefix=mobil%2Caps%2C423&ref=nb_sb_noss_2" style="text-decoration: none;">Shop now</a></p>
+        </div>
+    </div>
+    <div class="box1 box">
+        <div class="boxcont">
+            <h2>Beauty pics</h2>
+            <div class="boximg" style="background-image: url(assets/box5_image.jpg);"></div>
+            <p><a onclick="pop()" href="https://www.amazon.com/s?k=beauty+products&crid=3AMONKSGJVJTH&sprefix=beauty%2Caps%2C422&ref=nb_sb_ss_pltr-sample-20_3_6" style="text-decoration: none;">Shop now</a></p>
+        </div>
+    </div>
+    <div class="box2 box"><div class="boxcont">
+        <h2>Pets need</h2>
+        <div class="boximg" style="background-image: url(assets/box6_image.jpg);"></div>
+        <p><a onclick="pop()" href="https://www.amazon.com/s?k=pets+needs&crid=2YHAI01XYLS0T&sprefix=pets+nee%2Caps%2C360&ref=nb_sb_noss_2" style="text-decoration: none;">Shop now</a></p>
+    </div></div>
+    <div class="box3 box">
+        <div class="boxcont">
+        <h2>Toys</h2>
+        <div class="boximg" style="background-image: url(assets/box7_image.jpg);"></div>
+        <p><a onclick="pop()" href="https://www.amazon.com/s?k=toys&crid=2FWF3Q111BNX8&sprefix=to%2Caps%2C414&ref=nb_sb_noss_2" style="text-decoration: none;">Shop now</a></p>
+</div>
+</div>
+    <div class="box4 box"><div class="boxcont">
+        <h2>Womens Accesories</h2>
+        <div class="boximg" style="background-image: url(assets/box8_image.jpg);"></div>
+        <p><a onclick="pop()" href="https://www.amazon.com/s?k=womens+accessories&crid=U3GQB36GOQ1I&sprefix=womens+acces%2Caps%2C357&ref=nb_sb_ss_pltr-sample-20_1_12" style="text-decoration: none;">Shop now</a></p>
+    </div>
+</div>
+</div>
+<footer>
+    <div class="footpanel1" onclick="func()">
+      Back to top
+    </div>
+    <div class="footpanel2">
+        <ul>
+            <p>Get to Know Us</p>
+            <a href="">Careers</a>
+            <a href="">Blog</a>
+            <a href="">About Amazon</a>
+            <a href="">Investor Relations</a>
+            <a href="">Amazon Devices</a>
+            <a href="">Amazon Science</a>
+        </ul>
+        <ul>
+            <p>Make Money with Us</p>
+            <a href="">Sell products on Amazon</a>
+            <a href="">Sell on Amazon Business</a>
+            <a href="">Sell apps on Amazon</a>
+            <a href="">Become an Affiliate</a>
+            <a href="">Advertise Your Products</a>
+            <a href="">	Self-Publish with Us</a>
+            <a href="">Host an Amazon Hub</a>
+        </ul>
+        <ul>
+            <p>Amazon Payment Products</p>
+            <a href=""> Amazon Business Card</a>
+            <a href=""> Shop with Points</a>
+            <a href="">Shop with Points</a>
+            <a href="">Reload Your Balance</a>
+            <a href="">Amazon Currency Converter</a>
+        </ul>
+        <ul>
+            <p>Let Us Help You</p>
+            <a href=""> Amazon and COVID-19</a>
+            <a href="">Your Account</a>
+            <a href="">Your Orders</a>
+            <a href="">Shipping Rates & Policies</a>
+            <a href="">Returns & Replacements</a>
+            <a href="">Manage Your Content and Devices</a>
+            <a href="">Help</a>
+        </ul>
+    </div>
+    <div class="footpanel3">
+        <div class="logo">
+        </div>
+        <button>India</button>
+        <button>Inr-₹</button>
+        <button>English</button>
+    </div>
+    <div class="footpanel4">
+        <div class="pages">
+            <a href="">Conditions for use</a>
+            <a href="">Privacy notice</a>
+            <a href="">Your ads privacy choices</a>
+        </div>
+    
+    </div>
+    <div class="copyright">
+        © 1996-2024, Amazon.com, Inc. or its affiliates
+    </div>
+</footer>
+<script>
+    alert("this is clone webpage of amazon");
+    function func(){
+    window.scrollTo(0,0);
+    }
+    function pop(){
+        alert("Redirecting into the original amazon website");
+    }
+
+</script>
+</body>
+
+</html>
